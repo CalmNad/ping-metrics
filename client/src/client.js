@@ -8,9 +8,9 @@ const logger = require("./logger");
 // TODO: вынести в env
 const PING_INTERVAL = 1000; // msec
 const PING_TIMEOUT = 60000; // msec
-const PING_HOSTNAME = "youtube.com";
+// const PING_HOSTNAME = "youtube.com";
 const PING_PORT = 443;
-// const PING_HOSTNAME = "fundraiseup.com";
+const PING_HOSTNAME = "fundraiseup.com";
 const PING_PATH = "/";
 
 // константы для подклчюения к серверу сбора статистики
