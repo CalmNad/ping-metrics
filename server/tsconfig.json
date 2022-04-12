@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "lib": ["es2021"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@application/*": ["./src/application/*"],
+      "@stories/*": ["./src/application/stories/*"],
+      "@stories": ["./src/application/stories"],
+      "@ports/*": ["./src/application/ports/*"],
+      "@adapters/*": ["./src/adapters/*"],
+      "@domain/*": ["./src/domain/*"]
+    }
+  }
+}
